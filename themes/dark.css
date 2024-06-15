@@ -1,22 +1,22 @@
 body.dark {
-    background-color: #1c1c1e;
-    color: #ffffff;
+	background-color: #1c1c1e;
+	color: #ffffff;
 }
 
 body.dark header {
-    background-color: rgba(28, 28, 30, 0.5);
+	background-color: rgba(28, 28, 30, 0.5);
 }
 
 body.dark #clock {
-    color: #ffffff;
-    text-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+	color: #ffffff;
+	text-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
 }
 
 body.dark #themeSelector {
-    background-color: rgba(255, 255, 255, 0.1);
-    color: #ffffff;
+	background-color: rgba(255, 255, 255, 0.1);
+	color: #ffffff;
 }
 
 body.dark #themeSelector:hover {
-    background-color: rgba(255, 255, 255, 0.2);
+	background-color: rgba(255, 255, 255, 0.2);
 }
