@@ -1,22 +1,22 @@
 body.neon {
-    background-color: #000000;
-    color: #39ff14;
+	background-color: #000000;
+	color: #39ff14;
 }
 
 body.neon header {
-    background-color: rgba(0, 0, 0, 0.5);
+	background-color: rgba(0, 0, 0, 0.5);
 }
 
 body.neon #clock {
-    color: #39ff14;
-    text-shadow: 0 0 5px #39ff14, 0 0 10px #39ff14, 0 0 20px #39ff14, 0 0 40px #39ff14;
+	color: #39ff14;
+	text-shadow: 0 0 5px #39ff14, 0 0 10px #39ff14, 0 0 20px #39ff14, 0 0 40px #39ff14;
 }
 
 body.neon #themeSelector {
-    background-color: rgba(57, 255, 20, 0.1);
-    color: #39ff14;
+	background-color: rgba(57, 255, 20, 0.1);
+	color: #39ff14;
 }
 
 body.neon #themeSelector:hover {
-    background-color: rgba(57, 255, 20, 0.2);
+	background-color: rgba(57, 255, 20, 0.2);
 }
