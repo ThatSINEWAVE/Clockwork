@@ -2,6 +2,8 @@
 
 #  [Clockwork](https://thatsinewave.github.io/Clockwork)
 
+![Clockwork](https://github.com/ThatSINEWAVE/Clockwork/assets/133239148/ecbd9eb1-c441-459d-bc5c-fff4c9d64ff5)
+
 Welcome to **Clockwork**, a web-based clock application designed for developers to create and share their own themes. Explore the different themes, or create your own to contribute to the Clockwork community.
 The primary goal of this project is to allow developers to create and commit their own themes to enhance the visual appeal and functionality of the clock.
 
