@@ -12,7 +12,7 @@ The primary goal of this project is to allow developers to create and commit the
 ## Features
 
 - Displays current time with hour and minute precision.
-- Multiple themes: Default, Dark, and Neon.
+- Multiple themes: Default, Dark, Minimal, Sunset and Neon.
 - Theme selection is saved across sessions using `localStorage`.
 - Simple and responsive design.
 
