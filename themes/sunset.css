@@ -1,0 +1,44 @@
+body.sunset {
+    background: linear-gradient(135deg, #ff8c42, #ff3c38);
+    color: #ffffff;
+}
+
+body.sunset #themeButton {
+    background: rgba(255, 255, 255, 0.15);
+    border-color: rgba(255, 255, 255, 0.3);
+}
+
+body.sunset #themeButton:hover {
+    background: rgba(255, 255, 255, 0.25);
+    border-color: rgba(255, 255, 255, 0.4);
+}
+
+body.sunset .theme-menu {
+    background: rgba(255, 255, 255, 0.15);
+    border-color: rgba(255, 255, 255, 0.3);
+}
+
+body.sunset .theme-menu button:hover {
+    background: rgba(255, 255, 255, 0.15);
+}
+
+body.sunset .time-container {
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+body.sunset #date {
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+}
+
+body.sunset .separator {
+    color: rgba(255, 255, 255, 0.9);
+}
+
+body.sunset .footer-links a {
+    color: #ffffff;
+    opacity: 0.8;
+}
+
+body.sunset .footer-links a:hover {
+    opacity: 1;
+}
