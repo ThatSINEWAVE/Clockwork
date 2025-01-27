@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Clockwork</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="icon" href="site-data/favicon.ico" type="image/x-icon">
     <link rel="apple-touch-icon" sizes="180x180" href="site-data/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="site-data/favicon-32x32.png">
@@ -14,31 +14,46 @@
     <link rel="stylesheet" href="themes/default.css">
     <link rel="stylesheet" href="themes/dark.css">
     <link rel="stylesheet" href="themes/neon.css">
+    <link rel="stylesheet" href="themes/minimal.css">
+    <link rel="stylesheet" href="themes/sunset.css">
   </head>
   <body class="default">
-    <header>
-      <h1>Clockwork</h1>
-      <select id="themeSelector">
-        <option value="default">Default Theme</option>
-        <option value="dark">Dark Theme</option>
-        <option value="neon">Neon Theme</option>
-      </select>
-    </header>
+    <div class="theme-toggle">
+      <button id="themeButton" aria-label="Theme menu">
+        <i class="fas fa-palette"></i>
+      </button>
+      <div class="theme-menu" id="themeMenu">
+        <button data-theme="default">Default</button>
+        <button data-theme="dark">Dark</button>
+        <button data-theme="neon">Neon</button>
+        <button data-theme="minimal">Minimal</button>
+        <button data-theme="sunset">Sunset</button>
+      </div>
+    </div>
+
     <main>
       <div id="clock">
-        <span id="hours"></span>: <span id="minutes"></span>
+        <div class="time-container">
+          <span id="hours"></span>
+          <span class="separator">:</span>
+          <span id="minutes"></span>
+        </div>
+        <div id="date"></div>
       </div>
     </main>
+
     <footer>
-      <a href="https://discord.com/invite/2nHHHBWNDw" target="_blank">
-        <i class="fab fa-discord"></i>
-      </a>
-      <a href="https://ko-fi.com/thatsinewave" target="_blank">
-        <i class="fas fa-heart"></i>
-      </a>
-      <a href="https://github.com/ThatSINEWAVE/Clockwork" target="_blank">
-        <i class="fab fa-github"></i>
-      </a>
+      <div class="footer-links">
+        <a href="https://discord.com/invite/2nHHHBWNDw" target="_blank" aria-label="Discord">
+          <i class="fab fa-discord"></i>
+        </a>
+        <a href="https://ko-fi.com/thatsinewave" target="_blank" aria-label="Ko-fi">
+          <i class="fas fa-heart"></i>
+        </a>
+        <a href="https://github.com/ThatSINEWAVE/Clockwork" target="_blank" aria-label="GitHub">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
     </footer>
     <script src="script.js"></script>
   </body>
