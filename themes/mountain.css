@@ -1,0 +1,48 @@
+body.mountain {
+    background-image: url('../site-data/mountain_bg.jpg');
+    background-size: cover; /* Cover the entire element */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+
+     color: #ffffff; /* Light text for contrast */
+}
+
+body.mountain #themeButton {
+    background: rgba(255, 255, 255, 0.15);
+    border-color: rgba(255, 255, 255, 0.3);
+}
+
+body.mountain #themeButton:hover {
+    background: rgba(255, 255, 255, 0.25);
+    border-color: rgba(255, 255, 255, 0.4);
+}
+
+body.mountain .theme-menu {
+    background: rgba(255, 255, 255, 0.15);
+    border-color: rgba(255, 255, 255, 0.3);
+}
+
+body.mountain .theme-menu button:hover {
+    background: rgba(255, 255, 255, 0.15);
+}
+
+body.mountain .time-container {
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+body.mountain #date {
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+}
+
+body.mountain .separator {
+    color: rgba(255, 255, 255, 0.9);
+}
+
+body.mountain .footer-links a {
+    color: #ffffff;
+    opacity: 0.8;
+}
+
+body.mountain .footer-links a:hover {
+    opacity: 1;
+}
