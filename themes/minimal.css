@@ -1,0 +1,39 @@
+body.minimal {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+body.minimal #themeButton {
+    background: rgba(0, 0, 0, 0.05);
+    border-color: rgba(0, 0, 0, 0.1);
+}
+
+body.minimal #themeButton:hover {
+    background: rgba(0, 0, 0, 0.1);
+    border-color: rgba(0, 0, 0, 0.2);
+}
+
+body.minimal .theme-menu {
+    background: rgba(255, 255, 255, 0.9);
+    border-color: rgba(0, 0, 0, 0.1);
+}
+
+body.minimal .theme-menu button {
+    color: #000000;
+}
+
+body.minimal .theme-menu button:hover {
+    background: rgba(0, 0, 0, 0.05);
+}
+
+body.minimal .time-container {
+    font-weight: 300;
+}
+
+body.minimal #date {
+    color: #666666;
+}
+
+body.minimal .footer-links a {
+    color: #000000;
+}
