@@ -2,7 +2,7 @@
 
 #  [Clockwork](https://thatsinewave.github.io/Clockwork)
 
-![Clockwork](https://github.com/ThatSINEWAVE/Clockwork/assets/133239148/ecbd9eb1-c441-459d-bc5c-fff4c9d64ff5)
+![Clockwork-Default](https://github.com/user-attachments/assets/dae16e5d-a711-4918-a63a-8abb75517a90)
 
 Welcome to **Clockwork**, a web-based clock application designed for developers to create and share their own themes. Explore the different themes, or create your own to contribute to the Clockwork community.
 The primary goal of this project is to allow developers to create and commit their own themes to enhance the visual appeal and functionality of the clock.
@@ -41,7 +41,7 @@ The primary goal of this project is to allow developers to create and commit the
 To use the Clockwork application:
 
 1. Visit [Clockwork](https://thatsinewave.github.io/Clockwork).
-2. Use the theme selector dropdown in the header to choose between Default, Dark, and Neon themes.
+2. Use the theme selector dropdown in the header to choose between one of the themes.
 3. The selected theme will be saved and applied the next time you visit the site.
 
 ## Contributing
@@ -54,7 +54,7 @@ If you'd like to contribute to this project, please fork the repository and crea
 
 </div>
 
-### Theme CSS Structure
+## Theme CSS Structure
 
 Your theme CSS file should follow the structure of the existing themes. Example:
 
@@ -66,6 +66,32 @@ body.your-theme-name {
 
 /* Additional styling for your theme */
 ```
+
+### Theme Showcase
+
+<div align="center">
+
+#### Default Theme
+
+![Clockwork-Default](https://github.com/user-attachments/assets/bd9c8964-088f-488a-bbdb-58c8b3d96183)
+
+#### Dark Theme
+
+![Clockwork-Dark](https://github.com/user-attachments/assets/ef477fb4-af1e-4b02-8ed8-5702616eac3a)
+
+#### Minimal Theme
+
+![Clockwork-Minimal](https://github.com/user-attachments/assets/09b90709-c177-4b90-91ca-b9bb0354b891)
+
+#### Neon Theme
+
+![Clockwork-Neon](https://github.com/user-attachments/assets/babaad79-5cd1-48c6-9851-885aa1ecd8cc)
+
+#### Sunset Theme
+
+![Clockwork-Sunset](https://github.com/user-attachments/assets/41b742ea-6a6b-4815-a3d7-9475adf48f90)
+
+</div>
 
 ## License
 
